@@ -1,0 +1,248 @@
+{
+    "dataset": {
+        "ref": "id=woot_reqd_for_search"
+    },
+    "settings": {
+        "theme": "light",
+        "backgroundColor": "#ffffff",
+        "labelColor": "#333333",
+        "labelOutlineColor": "#ffffff",
+        "selectionData": {
+            "genCount": 0,
+            "selections": []
+        },
+        "lastViewedSnap": "reqd-snap-id",
+        "layouts": {},
+        "displayExportButton": false
+    },
+    "player": {
+        "settings": {
+            "fontClass": "Raleway",
+            "showModal": true,
+            "simpleSplash": true,
+            "showHeader": true,
+            "headerType": "simple",
+            "shareTitle": "Check out this map",
+            "shareTitleCompare": "Check out my node",
+            "shareTitleSelect": "Check out these nodes",
+            "shareEnableSelect": false,
+            "showExportBtn": true,
+            "facebookShare": false,
+            "twitterShare": false,
+            "colorTheme": "light",
+            "showPanels": true,
+            "showSearch": true,
+            "showTimeline": true,
+            "showSnapDescrs": true,
+            "infoClickToParent": false,
+            "showSnapTooltips": false,
+            "panelLayoutType": "interactive",
+            "autoPlay": false,
+            "snapTransition": "tween",
+            "snapDuration": 10,
+            "timelineType": "bottom",
+            "totalDuration": 1000,
+            "headerTitle": "map title",
+            "headerImageUrl": "",
+            "headerHtml": "<h1>map header</h1>",
+            "highlightColor": "#e21186",
+            "modalDescription": "<p>map description</p>",
+            "modalBackground": "",
+            "modalLogo": "",
+            "modalSubtitle": "<p>map subtitle</p>",
+            "searchAlg": "matchSorter",
+            "modalTitle": "document network",
+            "modalIntroHtml": "<h1>document_network_test</h1><div>Each of the 1000 nodes in this mapp represents ...</div><div>They are linked with each other if they are similar across the following attributes</div><div>a) Attribute 1</div><div>b) Attribute 2</div><h1></h1>",
+            "allowJoin": false,
+            "displayTooltipCard": false
+        }
+    },
+    "snapshots": [
+        {
+            "id": "cec3dfc6-ef44-49de-af28-33eff809983b",
+            "descr": "",
+            "snapName": "Our Narratives",
+            "subtitle": "Explore the MVI's work.",
+            "summaryImg": "",
+            "isEnabled": true,
+            "isDeleted": false,
+            "camera": {
+                "normalizeCoords": true,
+                "r": 1.3347904373327948,
+                "x": 0,
+                "y": 0
+            },
+            "layout": {
+                "plotType": "original",
+                "xaxis": "OriginalX",
+                "yaxis": "OriginalY",
+                "settings": {
+                    "drawNodes": true,
+                    "borderRatio": 0.15,
+                    "bigOnTop": false,
+                    "nodeImageShow": true,
+                    "nodeImageAttr": "photo",
+                    "nodeUnselectedOpacity": 0.25,
+                    "nodeHighlightRatio": 1.2,
+                    "nodeHighlightBorderOffset": 6,
+                    "nodeHighlightBorderWidth": 1,
+                    "nodeSelectionRatio": 1.2,
+                    "nodeSelectionBorderOffset": 0,
+                    "nodeSelectionBorderWidth": 3,
+                    "nodeSelectionDegree": 1,
+                    "isShowSelectedNodeTab": true,
+                    "selectedNodeCommonTitle": "Neighbors",
+                    "selectedNodeIncomingTitle": "Incoming",
+                    "selectedNodeOutgoingTitle": "Outgoing",
+                    "neighbourListHoverDegree": 0,
+                    "nodePopSize": 10,
+                    "nodePopImageShow": true,
+                    "nodePopImageAttr": "photo",
+                    "nodePopShow": false,
+                    "nodePopDelay": 1500,
+                    "nodePopRepositionNeighbors": "true,",
+                    "drawEdges": true,
+                    "edgeDirectional": false,
+                    "edgeTaper": false,
+                    "edgeTaperScale": 0.5,
+                    "edgeSaturation": 1,
+                    "edgeUnselectedOpacity": 0.2,
+                    "edgeDirectionalRender": "outgoing",
+                    "drawLabels": true,
+                    "drawGroupLabels": true,
+                    "labelColor": "#333333",
+                    "labelOutlineColor": "#ffffff",
+                    "labelSize": "proportional",
+                    "labelScale": 1,
+                    "labelSizeRatio": 0.5,
+                    "defaultLabelSize": 12,
+                    "minLabelSize": 12,
+                    "maxLabelSize": 16,
+                    "labelThreshold": 1,
+                    "labelMaxCount": 300,
+                    "labelDefaultShow": true,
+                    "labelAttr": "OriginalLabel",
+                    "labelHoverAttr": "OriginalLabel",
+                    "labelDegree": 0,
+                    "labelOpacity": 1,
+                    "labelUnselectedOpacity": 0,
+                    "zoomLock": false,
+                    "panLock": false,
+                    "maxZoomLevel": 10,
+                    "minZoomLevel": -10,
+                    "savedZoomLevel": -2,
+                    "zoomingRatio": 1.7,
+                    "mouseZoomDuration": 500,
+                    "xAxShow": true,
+                    "yAxShow": true,
+                    "xAxTickShow": true,
+                    "yAxTickShow": true,
+                    "xAxLabel": "",
+                    "yAxLabel": "",
+                    "xAxTooltip": "",
+                    "yAxTooltip": "",
+                    "invertX": false,
+                    "invertY": true,
+                    "scatterAspect": 0.5,
+                    "mapboxMapID": "mapbox/light-v10",
+                    "nodeSizeStrat": "attr",
+                    "nodeSizeAttr": "size",
+                    "nodeSizeScaleStrategy": "log",
+                    "nodeSizeScaleInvert": false,
+                    "nodeSizeDefaultValue": 10,
+                    "nodeSizeMin": 10,
+                    "nodeSizeMax": 50,
+                    "nodeSizeMultiplier": 0.5,
+                    "nodeColorStrat": "attr",
+                    "nodeColorAttr": "Cluster",
+                    "nodeColorScaleStrategy": "log",
+                    "nodeColorScaleInvert": false,
+                    "nodeColorScaleExponent": 2.5,
+                    "nodeColorScaleBase": 10,
+                    "nodeColorDefaultValue": "rgb(200,200,200)",
+                    "nodeColorCycleCategoryColors": true,
+                    "nodeColorPaletteNumeric": [
+                        {
+                            "col": "#ee4444"
+                        },
+                        {
+                            "col": "#3399ff"
+                        }
+                    ],
+                    "nodeColorPaletteOrdinal": [
+                        {
+                            "col": "#ee4444"
+                        },
+                        {
+                            "col": "#e7e7e7"
+                        },
+                        {
+                            "col": "#444444"
+                        },
+                        {
+                            "col": "#ffcc00"
+                        },
+                        {
+                            "col": "#66cccc"
+                        },
+                        {
+                            "col": "#99cc00"
+                        },
+                        {
+                            "col": "#993399"
+                        },
+                        {
+                            "col": "#b23333"
+                        },
+                        {
+                            "col": "#994c00"
+                        },
+                        {
+                            "col": "#0073bf"
+                        },
+                        {
+                            "col": "#bf9900"
+                        },
+                        {
+                            "col": "#4c9999"
+                        },
+                        {
+                            "col": "#739900"
+                        },
+                        {
+                            "col": "#732673"
+                        }
+                    ],
+                    "edgeCurvature": 0.5,
+                    "edgeSizeStrat": "fixed",
+                    "edgeSizeAttr": "OriginalSize",
+                    "edgeSizeScaleStrategy": "linear",
+                    "edgeSizeScaleInvert": false,
+                    "edgeSizeDefaultValue": 1,
+                    "edgeSizeMin": 0.1,
+                    "edgeSizeMax": 10,
+                    "edgeSizeMultiplier": 1,
+                    "edgeColorStrat": "gradient",
+                    "edgeColorAttr": "OriginalColor",
+                    "edgeColorScaleStrategy": "linear",
+                    "edgeColorScaleInvert": false,
+                    "edgeColorScaleExponent": 2.5,
+                    "edgeColorScaleBase": 10,
+                    "edgeColorDefaultValue": "rgb(200,200,200)",
+                    "edgeColorCycleCategoryColors": true,
+                    "edgeColorPaletteNumeric": [
+                        {
+                            "col": "#cceeee"
+                        }
+                    ],
+                    "edgeColorPaletteOrdinal": [
+                        {
+                            "col": "#cc6600"
+                        }
+                    ],
+                    "isGeo": false
+                }
+            }
+        }
+    ]
+}

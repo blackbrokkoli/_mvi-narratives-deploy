@@ -1,0 +1,1102 @@
+{
+    "_id": "id=woot_reqd_for_search",
+    "attrDescriptors": [
+        {
+            "id": "keywords",
+            "title": "Keywords",
+            "visible": true,
+            "visibleInProfile": true,
+            "searchable": true,
+            "attrType": "liststring",
+            "renderType": "tag-cloud",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "description",
+            "title": "description",
+            "visible": true,
+            "visibleInProfile": true,
+            "searchable": true,
+            "attrType": "string",
+            "renderType": "text",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "id",
+            "title": "id",
+            "visible": false,
+            "visibleInProfile": true,
+            "searchable": false,
+            "attrType": "integer",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "photo",
+            "title": "photo",
+            "visible": false,
+            "visibleInProfile": true,
+            "searchable": false,
+            "attrType": "picture",
+            "renderType": "default",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "x_tsne",
+            "title": "x_tsne",
+            "visible": false,
+            "visibleInProfile": true,
+            "searchable": false,
+            "attrType": "float",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "y_tsne",
+            "title": "y_tsne",
+            "visible": false,
+            "visibleInProfile": true,
+            "searchable": false,
+            "attrType": "float",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "label",
+            "title": "label",
+            "visible": true,
+            "visibleInProfile": false,
+            "searchable": true,
+            "attrType": "string",
+            "renderType": "text",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "Cluster",
+            "title": "Cluster",
+            "visible": false,
+            "visibleInProfile": true,
+            "searchable": false,
+            "attrType": "string",
+            "renderType": "tag-cloud",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "size",
+            "title": "size",
+            "visible": true,
+            "visibleInProfile": true,
+            "searchable": false,
+            "attrType": "integer",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        }
+    ],
+    "datapoints": [
+        {
+            "id": "0",
+            "attr": {
+                "keywords": [
+                    "Nested Scales"
+                ],
+                "description": "",
+                "label": "Green Chemistry",
+                "id": 0,
+                "photo": "",
+                "x_tsne": 23.0,
+                "y_tsne": 10.0,
+                "Cluster": "Nested Scales",
+                "size": 20
+            }
+        },
+        {
+            "id": "1",
+            "attr": {
+                "keywords": [
+                    "Nested Scales"
+                ],
+                "description": "",
+                "label": "Raw Materials",
+                "id": 1,
+                "photo": "",
+                "x_tsne": 46.0,
+                "y_tsne": 10.0,
+                "Cluster": "Nested Scales",
+                "size": 20
+            }
+        },
+        {
+            "id": "2",
+            "attr": {
+                "keywords": [
+                    "Nested Scales"
+                ],
+                "description": "",
+                "label": "Products",
+                "id": 2,
+                "photo": "",
+                "x_tsne": 69.0,
+                "y_tsne": 10.0,
+                "Cluster": "Nested Scales",
+                "size": 20
+            }
+        },
+        {
+            "id": "3",
+            "attr": {
+                "keywords": [
+                    "Nested Scales"
+                ],
+                "description": "",
+                "label": "Buildings",
+                "id": 3,
+                "photo": "",
+                "x_tsne": 92.0,
+                "y_tsne": 10.0,
+                "Cluster": "Nested Scales",
+                "size": 20
+            }
+        },
+        {
+            "id": "4",
+            "attr": {
+                "keywords": [
+                    "Nested Scales"
+                ],
+                "description": "",
+                "label": "Communities + Services",
+                "id": 4,
+                "photo": "",
+                "x_tsne": 115.0,
+                "y_tsne": 10.0,
+                "Cluster": "Nested Scales",
+                "size": 20
+            }
+        },
+        {
+            "id": "5",
+            "attr": {
+                "keywords": [
+                    "Nested Scales"
+                ],
+                "description": "",
+                "label": "Landscapes",
+                "id": 5,
+                "photo": "",
+                "x_tsne": 138.0,
+                "y_tsne": 10.0,
+                "Cluster": "Nested Scales",
+                "size": 20
+            }
+        },
+        {
+            "id": "6",
+            "attr": {
+                "keywords": [
+                    "Nested Scales"
+                ],
+                "description": "",
+                "label": "Bioregions",
+                "id": 6,
+                "photo": "",
+                "x_tsne": 161.0,
+                "y_tsne": 10.0,
+                "Cluster": "Nested Scales",
+                "size": 20
+            }
+        },
+        {
+            "id": "7",
+            "attr": {
+                "keywords": [
+                    "Nested Scales"
+                ],
+                "description": "",
+                "label": "Transnationalities",
+                "id": 7,
+                "photo": "",
+                "x_tsne": 184.0,
+                "y_tsne": 10.0,
+                "Cluster": "Nested Scales",
+                "size": 20
+            }
+        },
+        {
+            "id": "8",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Building a Place",
+                "id": 8,
+                "photo": "",
+                "x_tsne": 28.036699593995557,
+                "y_tsne": 61.31346717053789,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "9",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Spinnaker roof",
+                "id": 9,
+                "photo": "",
+                "x_tsne": 39.811847218791534,
+                "y_tsne": 26.40962697896536,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "10",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Glamping",
+                "id": 10,
+                "photo": "",
+                "x_tsne": 54.740659381397975,
+                "y_tsne": 48.08611975984691,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "11",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Shower",
+                "id": 11,
+                "photo": "",
+                "x_tsne": 128.74963027424914,
+                "y_tsne": 53.88383548920377,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "12",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Windows",
+                "id": 12,
+                "photo": "",
+                "x_tsne": 115.66546176408988,
+                "y_tsne": 36.31497738039144,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "13",
+            "attr": {
+                "keywords": [
+                    "Building"
+                ],
+                "description": "",
+                "label": "Il Doppio",
+                "id": 13,
+                "photo": "",
+                "x_tsne": 79.044780941727,
+                "y_tsne": 54.274300143910985,
+                "Cluster": "Building",
+                "size": 8
+            }
+        },
+        {
+            "id": "14",
+            "attr": {
+                "keywords": [
+                    "Place"
+                ],
+                "description": "",
+                "label": "MonViso Institute",
+                "id": 14,
+                "photo": "",
+                "x_tsne": 87.6869577559712,
+                "y_tsne": 78.27915084750353,
+                "Cluster": "Place",
+                "size": 10
+            }
+        },
+        {
+            "id": "15",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Everything is connected - think and design systemically to take more effective action in tackling wicked sustainability challenges.",
+                "label": "Be systemic",
+                "id": 15,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-01-300x279.png",
+                "x_tsne": 14.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "16",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Our challenges are globally connected but require direct, local people action, for regional resilience. Walk the talk.",
+                "label": "Think big & act direct",
+                "id": 16,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-02-300x279.png",
+                "x_tsne": 28.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "17",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Decisions on one governance or spatial scale should embrace systemic effects on any of the eight scales of spiral emergence in complex systems.",
+                "label": "Design across scales",
+                "id": 17,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2021/03/ccicons-12-300x279.png",
+                "x_tsne": 42.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "18",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Action is urgently needed - being efficient is good but not enough. Go for what is most effective, having most leverage and impact.",
+                "label": "Find leverage",
+                "id": 18,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-03-300x279.png",
+                "x_tsne": 56.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "19",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Use low tech, simplified, passive and mechanic solutions where possible, for less embodied energy and easy maintenance. High tech is the needed extra where it makes sense.",
+                "label": "Use low tech & high brain",
+                "id": 19,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-04-300x279.png",
+                "x_tsne": 70.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "20",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Nature offers genius design solutions with billions of years in evolution, functioning in closed systems, with the principle of cooperation, where nothing gets wasted.",
+                "label": "Learn from Nature",
+                "id": 20,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-05-300x279.png",
+                "x_tsne": 84.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "21",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Design for adaptive, innovative and transformative capacity. Embrace deliberate transitions throughout the four resilience phase of the adaptive waves.",
+                "label": "Resiliency",
+                "id": 21,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2021/03/ccicons-13-300x279.png",
+                "x_tsne": 98.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "22",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Often, local people know their terrain and can tell us solutions that work, if we listen carefully. This entails solidarity between locals and visitors.",
+                "label": "Respect local knowledge",
+                "id": 22,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-06-300x279.png",
+                "x_tsne": 112.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "23",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Less is more. Let's re-think consumption to become prosumers, and aim towards zero emissions and zero waste.",
+                "label": "Re-fuse, Re-use, Re-cycle",
+                "id": 23,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-07-300x279.png",
+                "x_tsne": 126.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "24",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Design in opportunity and design out waste. Create mutual benefits while closing resource loops.",
+                "label": "Circularity",
+                "id": 24,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2021/03/ccicons-14-300x279.png",
+                "x_tsne": 140.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "25",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Products, services and economies designed to minimize carbon flows over entire life cycles may well be the most effective tools to slow down climate change.",
+                "label": "Design with carbon",
+                "id": 25,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-08-300x279.png",
+                "x_tsne": 154.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "26",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Share trusted knowledge and valuable experience to involve, stimulate and engage others to support the sustainability transition.",
+                "label": "Transfer knowledge and build capacity",
+                "id": 26,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-09-300x279.png",
+                "x_tsne": 168.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "27",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Facts are facts, there is no alternative truth to the current state of knowledge. Show your data and carefully interpret it.",
+                "label": "Be transparent",
+                "id": 27,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-10-300x279.png",
+                "x_tsne": 182.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "28",
+            "attr": {
+                "keywords": [
+                    "Systemic Design Principle"
+                ],
+                "description": "Follow your instinct and enjoy contributing to a net-positive impact.",
+                "label": "Have fun do good",
+                "id": 28,
+                "photo": "https://monviso-institute.org/wp-content/uploads/2020/05/ccicons-11-300x279.png",
+                "x_tsne": 196.0,
+                "y_tsne": 100.0,
+                "Cluster": "Systemic Design Principle",
+                "size": 20
+            }
+        },
+        {
+            "id": "29",
+            "attr": {
+                "keywords": [
+                    "General"
+                ],
+                "description": "",
+                "label": "Our Design Principles",
+                "id": 29,
+                "photo": "",
+                "x_tsne": 91.0,
+                "y_tsne": 120.0,
+                "Cluster": "General",
+                "size": 30
+            }
+        },
+        {
+            "id": "30",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Arena",
+                "id": 30,
+                "photo": "",
+                "x_tsne": 142.48756977824272,
+                "y_tsne": 49.888528568195554,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "31",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Cement Foundation",
+                "id": 31,
+                "photo": "",
+                "x_tsne": 87.2310907529354,
+                "y_tsne": 58.00394691790121,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "32",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Net Positive Passive House",
+                "id": 32,
+                "photo": "",
+                "x_tsne": 152.141361425597,
+                "y_tsne": 42.89754415574774,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "33",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Energy and Heating",
+                "id": 33,
+                "photo": "",
+                "x_tsne": 68.37401241093275,
+                "y_tsne": 64.14269854471112,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "34",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Photovoltaic",
+                "id": 34,
+                "photo": "",
+                "x_tsne": 101.15867882814878,
+                "y_tsne": 31.668475776368776,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "35",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Challenging Building Codes",
+                "id": 35,
+                "photo": "",
+                "x_tsne": 165.06429732415566,
+                "y_tsne": 73.40334316732094,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "36",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Circular Water System",
+                "id": 36,
+                "photo": "",
+                "x_tsne": 91.67874969383084,
+                "y_tsne": 39.43709559080668,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "37",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Piezoelectric Light Switches",
+                "id": 37,
+                "photo": "",
+                "x_tsne": 153.02703300429366,
+                "y_tsne": 49.85240059055201,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "38",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Stair Case",
+                "id": 38,
+                "photo": "",
+                "x_tsne": 94.84628315910206,
+                "y_tsne": 64.18069839775012,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "39",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Hemp Wall",
+                "id": 39,
+                "photo": "",
+                "x_tsne": 34.98916309044345,
+                "y_tsne": 20.420631012391187,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "40",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Hemp as a building material",
+                "id": 40,
+                "photo": "",
+                "x_tsne": 48.54697540121998,
+                "y_tsne": 62.499312697558565,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "41",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Ventilation system",
+                "id": 41,
+                "photo": "",
+                "x_tsne": 124.14814926003864,
+                "y_tsne": 44.22744154343098,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "42",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Stone Walls",
+                "id": 42,
+                "photo": "",
+                "x_tsne": 128.84023690284428,
+                "y_tsne": 60.69097278375595,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "43",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Lose Roofs",
+                "id": 43,
+                "photo": "",
+                "x_tsne": 119.53735647325422,
+                "y_tsne": 47.26455172334492,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "44",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Paulownia Wood",
+                "id": 44,
+                "photo": "",
+                "x_tsne": 36.16694773463427,
+                "y_tsne": 21.71141728710231,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "45",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Pond",
+                "id": 45,
+                "photo": "",
+                "x_tsne": 103.37151809993506,
+                "y_tsne": 60.58866765108184,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "46",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Proving against climate change",
+                "id": 46,
+                "photo": "",
+                "x_tsne": 91.07957601409367,
+                "y_tsne": 66.04506543469441,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "47",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Local expertise",
+                "id": 47,
+                "photo": "",
+                "x_tsne": 72.69722520233832,
+                "y_tsne": 74.98472229030523,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "48",
+            "attr": {
+                "keywords": [
+                    "Narrative"
+                ],
+                "description": "",
+                "label": "Chestnut flooring",
+                "id": 48,
+                "photo": "",
+                "x_tsne": 141.746036462566,
+                "y_tsne": 71.22177219496311,
+                "Cluster": "Narrative",
+                "size": 5
+            }
+        },
+        {
+            "id": "49",
+            "attr": {
+                "keywords": [
+                    "Building"
+                ],
+                "description": "",
+                "label": "Atelier",
+                "id": 49,
+                "photo": "",
+                "x_tsne": 116.11894601442896,
+                "y_tsne": 69.34028850337049,
+                "Cluster": "Building",
+                "size": 8
+            }
+        },
+        {
+            "id": "50",
+            "attr": {
+                "keywords": [
+                    "Building"
+                ],
+                "description": "",
+                "label": "Stage",
+                "id": 50,
+                "photo": "",
+                "x_tsne": 68.2796512316504,
+                "y_tsne": 62.033833569794616,
+                "Cluster": "Building",
+                "size": 8
+            }
+        },
+        {
+            "id": "51",
+            "attr": {
+                "keywords": [
+                    "Building"
+                ],
+                "description": "",
+                "label": "Piccolo",
+                "id": 51,
+                "photo": "",
+                "x_tsne": 160.92337413033528,
+                "y_tsne": 22.912139371641693,
+                "Cluster": "Building",
+                "size": 8
+            }
+        },
+        {
+            "id": "52",
+            "attr": {
+                "keywords": [
+                    "Building"
+                ],
+                "description": "",
+                "label": "Observatory",
+                "id": 52,
+                "photo": "",
+                "x_tsne": 136.890456301886,
+                "y_tsne": 26.238246536426324,
+                "Cluster": "Building",
+                "size": 8
+            }
+        },
+        {
+            "id": "53",
+            "attr": {
+                "keywords": [
+                    "Building"
+                ],
+                "description": "",
+                "label": "Workshop",
+                "id": 53,
+                "photo": "",
+                "x_tsne": 50.91225571703264,
+                "y_tsne": 55.78085938622806,
+                "Cluster": "Building",
+                "size": 8
+            }
+        },
+        {
+            "id": "54",
+            "attr": {
+                "keywords": [
+                    "Building"
+                ],
+                "description": "",
+                "label": "Electro-mobility Hub",
+                "id": 54,
+                "photo": "",
+                "x_tsne": 97.2674161731782,
+                "y_tsne": 30.4220384951845,
+                "Cluster": "Building",
+                "size": 8
+            }
+        },
+        {
+            "id": "55",
+            "attr": {
+                "keywords": [
+                    "Place"
+                ],
+                "description": "",
+                "label": "Ostana",
+                "id": 55,
+                "photo": "",
+                "x_tsne": 125.29907126904826,
+                "y_tsne": 51.9070140638184,
+                "Cluster": "Place",
+                "size": 10
+            }
+        },
+        {
+            "id": "56",
+            "attr": {
+                "keywords": [
+                    "Place"
+                ],
+                "description": "",
+                "label": "Monte Viso",
+                "id": 56,
+                "photo": "",
+                "x_tsne": 128.0578215363824,
+                "y_tsne": 37.29970018092415,
+                "Cluster": "Place",
+                "size": 10
+            }
+        },
+        {
+            "id": "57",
+            "attr": {
+                "keywords": [
+                    "Building"
+                ],
+                "description": "",
+                "label": "Permaculture Garden",
+                "id": 57,
+                "photo": "",
+                "x_tsne": 98.68166452197605,
+                "y_tsne": 31.94937493005883,
+                "Cluster": "Building",
+                "size": 8
+            }
+        },
+        {
+            "id": "58",
+            "attr": {
+                "keywords": [
+                    "Building"
+                ],
+                "description": "",
+                "label": "Biocompostable Toilet",
+                "id": 58,
+                "photo": "",
+                "x_tsne": 99.17806066312912,
+                "y_tsne": 78.79007059520801,
+                "Cluster": "Building",
+                "size": 8
+            }
+        },
+        {
+            "id": "59",
+            "attr": {
+                "keywords": [
+                    "General"
+                ],
+                "description": "",
+                "label": "Nested Scales",
+                "id": 59,
+                "photo": "",
+                "x_tsne": 80.0,
+                "y_tsne": 0.0,
+                "Cluster": "General",
+                "size": 30
+            }
+        }
+    ]
+}
